@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Task 5</title>
+	<meta charset="utf-8">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1">
+ 	<script type="text/javascript" src="jquery/jquery.min.js"></script>
+	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<script>
+		function myFunction() {
+		    var x = document.getElementById("myTopnav");
+		    if (x.className === "topnav") {
+		        x.className += " responsive";
+		    } else {
+		        x.className = "topnav";
+		    }
+		}
+</script>
+</head>
+<body>
+<div class="wrapper-first">	
+	<div class="nav">
+		<div class="mylogo">
+			<img src="images/simple-logo.png">
+		</div>
+			<ul class="topnav" id="myTopnav">
+				<li class="icon">
+				<a href="javascript:void(0);"  class="icon-tab" style="font-size:15px;" onclick="myFunction()"><span class="three">☰</span></a>
+					 </li>
+				<li><a href="#" target="_linko" class="active">HOME</a></li>
+				<li><a href="#" target="_linko">ABOUT</a></li>
+				<li><a href="#" target="_linko">PRODUCTS</a></li>
+				<li><a href="#" target="_linko">SERVICES</a></li>
+				<li><a href="#" target="_linko">CONTACT</a></li>
+			</ul><br>
+		</div>
+	</div>
+<div class="wrapper-second">
+	<div class="toptop">
+		<div class="lorem col-5 col-m-5">
+			<h2> Simple Responsive Website</h2>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do diam nonummy eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+			</p>
+			<input class="btn" type="button" value="CALL TO ACTION"/>
+			<input class="btn" type="button" value="CALL TO ACTION"/>
+		</div>
+		<div class="container col-7 col-m-7">
+		  <br>
+		  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+		    <!-- Wrapper for slides -->
+		    <div class="carousel-inner" role="listbox">
+		      <div class="item active">
+		        <img src="images/banner_01.jpg">
+		        <div class="carousel-caption">
+		          <p>Information per banner here. Lorem ipsum dolor sit amet.</p>
+		        </div>
+		      </div>
+
+		      <div class="item">
+		        <img src="images/banner_02.jpg" width="500" height="500">
+		        <div class="carousel-caption">
+		          <p>Information per banner here. Lorem ipsum dolor sit amet.</p>
+		        </div>
+		      </div>
+		    
+		      <div class="item">
+		        <img src="images/banner_03.jpg" width="500" height="500">
+		        <div class="carousel-caption">
+		          <p>Information per banner here. Lorem ipsum dolor sit amet.</p>
+		        </div>
+		      </div>
+
+		      <div class="item">
+		        <img src="images/banner_04.jpg" width="500" height="500">
+		        <div class="carousel-caption">
+		          <p>Information per banner here. Lorem ipsum dolor sit amet.</p>
+		        </div>
+		      </div>
+		    </div>
+		     <!-- Indicators -->
+		    <ol class="carousel-indicators s1">
+		      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+		      <li data-target="#myCarousel" data-slide-to="1"></li>
+		      <li data-target="#myCarousel" data-slide-to="2"></li>
+		      <li data-target="#myCarousel" data-slide-to="3"></li>
+		    </ol>
+		  </div>
+		</div>
+	</div>
+</div>
+<div class="wrapper-third">
+	<div class="content col-4 col-m-6">
+		<p class="heading">HTML</p>
+		<img src="images/article-img_01.jpg">
+		Lorem ipsum dolor sit amet,consectetuer adipiscing
+		elit, sed diam nonummy nibh euismod tincindunt ut
+		laoreet dolore magna alequam erat volutpat.<br>
+		<input class="btn" type="button" value="READMORE"/>
+	</div>
+	<div class="content col-4 col-m-6">
+		<p class="heading">CSS</p>
+		<img src="images/article-img_02.jpg">
+		Lorem ipsum dolor sit amet,consectetuer adipiscing
+		elit, sed diam nonummy nibh euismod tincindunt ut
+		laoreet dolore magna alequam erat volutpat.<br>
+		<input class="btn" type="button" value="READMORE"/>
+	</div>
+	<div class="content col-4 col-m-12">
+		<p class="heading">JS</p>
+		<img src="images/article-img_03.jpg">
+		Lorem ipsum dolor sit amet,consectetuer adipiscing
+		elit, sed diam nonummy nibh euismod tincindunt ut
+		laoreet dolore magna alequam erat volutpat.<br>
+		<input class="btn" type="button" value="READMORE"/>
+	</div>	
+</div>
+<div class="wrapper-fourth">
+	<p class="heading"> Columns Demo</p>
+	<div class="column col-12" > <h5>12</h5> </div>
+
+	<div class="column col-1 col-m-6" > <h5>1</h5> </div>
+	<div class="column col-11 col-m-6" > <h5>12</h5> </div>
+
+	<div class="column col-2 col-m-6" > <h5>2</h5> </div>
+	<div class="column col-10 col-m-6" > <h5>10</h5> </div>
+
+	<div class="column col-3 col-m-6" > <h5>3</h5> </div>
+	<div class="column col-9 col-m-6" > <h5>9</h5> </div>
+
+	<div class="column col-4 col-m-6" > <h5>4</h5> </div>
+	<div class="column col-8 col-m-6" > <h5>8</h5> </div>
+
+	<div class="column col-5 col-m-6" > <h5>5</h5> </div>
+	<div class="column col-7 col-m-6" > <h5>7</h5> </div>
+
+	<div class="column col-6" > <h5>6</h5> </div>
+	<div class="column col-6" > <h5>6</h5> </div>
+
+	<div class="column col-4 col-m-6" > <h5>4</h5> </div>
+	<div class="column col-4 col-m-6" > <h5>4</h5> </div>
+	<div class="column col-4 col-m-12" > <h5>4</h5> </div>
+
+	<div class="column col-1 col-m-6" > <h5>1</h5> </div>
+	<div class="column col-2 col-m-6" > <h5>2</h5> </div>
+	<div class="column col-3 col-m-4" > <h5>3</h5> </div>
+	<div class="column col-3 col-m-4" > <h5>3</h5> </div>
+	<div class="column col-3 col-m-4" > <h5>3</h5> </div>
+</div>
+<div class="wrapper-fifth">
+	<div class=" col-6 col-m-6" > 
+		<p class="text">2016 &copy; SIMPLE Responsive Website</p>
+		<a href="#">Home |</a>
+		<a href="#">About |</a>
+		<a href="#">Products |</a>
+		<a href="#">Services |</a>
+		<a href="#">Contact </a>
+	</div>
+	<div class=" col-6 col-m-6" >
+		<img src="images/social-pinterest.png"> <a href="pinterest.com"></a>
+		<img src="images/social-rss.png"> <a href="rss.com"></a>
+		<img src="images/social-gplus.png"> <a href="googleplus.com"></a>
+		<img src="images/social-twitter.png"> <a href="twitter.com"></a>
+		<img src="images/social-facebook.png"> <a href="facebook.com"></a>
+	</div>
+</div>
+
+</body>
+</html>
